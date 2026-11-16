@@ -1,0 +1,141 @@
+{
+  "edition": "Novembro 2026 • Você Não Deveria Estar Aqui",
+  "bookAuthor": "Jeneva Rose • DarkSide Books",
+  "bookSubtitle": "Um rancho isolado no Wyoming, uma tempestade se aproximando e segredos mortais que nunca deveriam ser descobertos.",
+  "theme": {
+    "primaryColor": "#dc2626",
+    "secondaryColor": "#7f1d1d",
+    "backgroundColor": "#07090b",
+    "textColor": "#f8fafc",
+    "fontFamily": "'Inter', sans-serif",
+    "headingFont": "'Cinzel', serif",
+    "bannerImage": "/assets/themes/voce-nao-deveria-capa.jpg",
+    "accentGradient": "from-red-600 via-rose-800 to-zinc-950"
+  },
+  "rules": {
+    "timePerQuestionSeconds": 20,
+    "totalQuestions": 10
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Em qual estado americano fica o rancho de Calvin?",
+      "image": "/assets/themes/scene-wyoming.svg",
+      "options": [
+        "Wyoming",
+        "Montana",
+        "Utah",
+        "Colorado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "Qual hóspede anterior havia desaparecido?",
+      "image": "/assets/themes/scene-missing.svg",
+      "options": [
+        "Betty Wells",
+        "Briana Becker",
+        "Lisa Adams",
+        "Charlotte Wells"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Qual é a relação entre Joe e Calvin?",
+      "image": "/assets/themes/scene-wells.svg",
+      "options": [
+        "São vizinhos",
+        "São irmãos",
+        "São cunhados",
+        "São primos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Quem Calvin culpou pela morte de Lisa?",
+      "image": "/assets/themes/scene-missing.svg",
+      "options": [
+        "Joe Wells",
+        "Sheriff Almond",
+        "Wyatt Smith",
+        "Albert Wells"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Quem era Albert na família Wells?",
+      "image": "/assets/themes/scene-wells.svg",
+      "options": [
+        "Pai de Calvin",
+        "Tio de Calvin",
+        "Primo de Calvin",
+        "Irmão de Joe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Onde Calvin mantinha Briana?",
+      "image": "/assets/themes/scene-shed.svg",
+      "options": [
+        "Num galpão",
+        "No porão",
+        "Na floresta",
+        "No celeiro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Qual era o verdadeiro nome de Grace?",
+      "image": "/assets/themes/scene-identity.svg",
+      "options": [
+        "Briana Adams",
+        "Avery Adams",
+        "Charlotte Adams",
+        "Lisa Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "O que Grace encontrou no armário de Calvin?",
+      "image": "/assets/themes/scene-closet.svg",
+      "options": [
+        "Armas antigas",
+        "Roupas femininas",
+        "Fotos antigas",
+        "Cabeças empalhadas"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "Como Grace incapacitou Calvin?",
+      "image": "/assets/themes/scene-coffee.svg",
+      "options": [
+        "Usou uma arma",
+        "Chamou a polícia",
+        "Drogou o café",
+        "Atacou durante o sono"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "O que Avery fez com o posto?",
+      "image": "/assets/themes/scene-fire.svg",
+      "options": [
+        "Incendiou o posto",
+        "Chamou a polícia",
+        "Ficou escondida",
+        "Pediu ajuda"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

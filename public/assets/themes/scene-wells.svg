@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#090a0f"/>
+  <circle cx="400" cy="180" r="190" fill="#dc2626" opacity="0.09"/>
+  <!-- Porta Rústica do Rancho Wells -->
+  <g transform="translate(220, 45)">
+    <rect x="0" y="0" width="360" height="270" rx="12" fill="#1c1917" stroke="#44403c" stroke-width="4"/>
+    <line x1="0" y1="65" x2="360" y2="65" stroke="#292524" stroke-width="3"/>
+    <line x1="0" y1="205" x2="360" y2="205" stroke="#292524" stroke-width="3"/>
+    <!-- Placa da Família Wells -->
+    <rect x="45" y="88" width="270" height="94" rx="8" fill="#0c0a09" stroke="#ef4444" stroke-width="2"/>
+    <text x="180" y="128" fill="#fca5a5" font-family="Cinzel, serif" font-size="22" font-weight="900" text-anchor="middle" letter-spacing="4">
+      FAMÍLIA WELLS
+    </text>
+    <text x="180" y="158" fill="#9ca3af" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">
+      LAÇOS DE SANGUE &amp; SEGREDOS
+    </text>
+  </g>
+</svg>

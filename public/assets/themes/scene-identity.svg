@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#090a0f"/>
+  <circle cx="400" cy="180" r="180" fill="#ef4444" opacity="0.08"/>
+  <!-- Mesa escura -->
+  <rect width="800" height="360" fill="#0c0d14"/>
+  <!-- Carteira de Identidade / Segredo de Grace -->
+  <g transform="translate(220, 75) rotate(-2)">
+    <rect x="0" y="0" width="360" height="210" rx="14" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+    <rect x="0" y="0" width="360" height="44" rx="14" fill="#991b1b"/>
+    <text x="180" y="28" fill="#fecaca" font-family="Inter, sans-serif" font-size="13" font-weight="800" text-anchor="middle" letter-spacing="3">
+      IDENTIDADE VERDADEIRA
+    </text>
+    <!-- Silhueta na foto -->
+    <rect x="24" y="64" width="105" height="120" rx="8" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <circle cx="76" cy="108" r="22" fill="#64748b"/>
+    <path d="M42 174 C42 140 110 140 110 174 Z" fill="#64748b"/>
+    <!-- Dados riscados / misteriosos -->
+    <text x="150" y="88" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" font-weight="700">NOME USADO NO RANCHO:</text>
+    <text x="150" y="112" fill="#f87171" font-family="Inter, sans-serif" font-size="20" font-weight="900" text-decoration="line-through">GRACE</text>
+    <text x="150" y="148" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12" font-weight="700">NOME REAL:</text>
+    <rect x="150" y="158" width="175" height="26" rx="4" fill="#0f172a" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="237" y="176" fill="#fca5a5" font-family="Inter, sans-serif" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="2">? ? ? ADAMS</text>
+  </g>
+</svg>

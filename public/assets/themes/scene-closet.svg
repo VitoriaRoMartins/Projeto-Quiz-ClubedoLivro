@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#070709"/>
+  <!-- Feixe de lanterna no escuro -->
+  <polygon points="120,340 310,40 530,40 680,340" fill="#fef08a" opacity="0.07"/>
+  <!-- Portas do Armário de Calvin abertas -->
+  <rect x="260" y="35" width="280" height="290" rx="6" fill="#14110f" stroke="#292524" stroke-width="4"/>
+  <polygon points="260,35 190,65 190,305 260,325" fill="#1c1917" stroke="#292524" stroke-width="3"/>
+  <polygon points="540,35 610,65 610,305 540,325" fill="#1c1917" stroke="#292524" stroke-width="3"/>
+  <!-- Prateleiras internas sombrias -->
+  <line x1="265" y1="135" x2="535" y2="135" stroke="#292524" stroke-width="6"/>
+  <line x1="265" y1="230" x2="535" y2="230" stroke="#292524" stroke-width="6"/>
+  <!-- Olhos brilhando no escuro do armário e troféus macabros -->
+  <g fill="#dc2626" opacity="0.85">
+    <circle cx="330" cy="95" r="4"/>
+    <circle cx="346" cy="95" r="4"/>
+    <circle cx="450" cy="95" r="4"/>
+    <circle cx="466" cy="95" r="4"/>
+    <circle cx="390" cy="185" r="4.5"/>
+    <circle cx="408" cy="185" r="4.5"/>
+  </g>
+  <!-- Galhadas / Troféus de caça em silhueta -->
+  <path d="M338 80 C315 55 305 45 295 55 M338 80 C360 55 370 45 380 55" stroke="#57534e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M458 80 C435 55 425 45 415 55 M458 80 C480 55 490 45 500 55" stroke="#57534e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="400" y="295" fill="#f87171" font-family="Cinzel, serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="3">
+    O SEGREDO NO ARMÁRIO
+  </text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="45%" stop-color="#111827"/>
+      <stop offset="78%" stop-color="#3f1116"/>
+      <stop offset="100%" stop-color="#090a0f"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="72%" cy="22%" r="28%">
+      <stop offset="0%" stop-color="#fca5a5" stop-opacity="0.65"/>
+      <stop offset="40%" stop-color="#dc2626" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9ca3af" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Céu Noturno de Suspense -->
+  <rect width="800" height="1000" fill="url(#sky)"/>
+  <rect width="800" height="1000" fill="url(#moonGlow)"/>
+
+  <!-- Lua Vermelha/Pálida no Wyoming -->
+  <circle cx="576" cy="220" r="54" fill="#fee2e2" opacity="0.88"/>
+  <circle cx="560" cy="210" r="48" fill="#fca5a5" opacity="0.3"/>
+
+  <!-- Montanhas Rochosas (Wyoming) ao Fundo -->
+  <polygon points="0,640 140,420 290,560 460,360 630,540 740,430 800,510 800,760 0,760" fill="#0d131f"/>
+  <polygon points="140,420 195,500 115,490" fill="#e5e7eb" opacity="0.12"/>
+  <polygon points="460,360 525,465 415,455" fill="#e5e7eb" opacity="0.15"/>
+
+  <polygon points="0,680 90,540 230,620 370,470 530,610 680,490 800,600 800,820 0,820" fill="#090d15"/>
+
+  <!-- Floresta de Pinheiros Escuros -->
+  <g fill="#05070b" opacity="0.95">
+    <polygon points="40,560 15,690 65,690"/>
+    <polygon points="75,530 45,690 105,690"/>
+    <polygon points="115,575 90,690 140,690"/>
+    <polygon points="160,545 130,690 190,690"/>
+    <polygon points="640,540 610,695 670,695"/>
+    <polygon points="685,515 650,695 720,695"/>
+    <polygon points="735,550 705,695 765,695"/>
+    <polygon points="775,525 745,695 805,695"/>
+  </g>
+
+  <!-- Névoa da Montanha -->
+  <rect x="0" y="540" width="800" height="220" fill="url(#fog)"/>
+
+  <!-- Silhueta do Rancho Isolado de Calvin -->
+  <g transform="translate(265, 545)">
+    <!-- Telhado da Cabana/Rancho -->
+    <polygon points="135,0 0,95 270,95" fill="#07090e" stroke="#dc2626" stroke-width="1.5" stroke-opacity="0.4"/>
+    <!-- Chaminé -->
+    <rect x="195" y="18" width="24" height="55" fill="#07090e"/>
+    <!-- Corpo da Cabana -->
+    <rect x="28" y="92" width="214" height="125" fill="#050608"/>
+    <!-- Galpão Lateral -->
+    <polygon points="242,120 325,145 325,217 242,217" fill="#07090d"/>
+    <!-- Janela Acesa com Luz Vermelha/Âmbar Sinistra -->
+    <rect x="68" y="122" width="38" height="46" rx="2" fill="#f59e0b"/>
+    <line x1="87" y1="122" x2="87" y2="168" stroke="#050608" stroke-width="3"/>
+    <line x1="68" y1="145" x2="106" y2="145" stroke="#050608" stroke-width="3"/>
+    <!-- Porta Entreaberta com Feixe de Luz -->
+    <rect x="142" y="130" width="36" height="87" fill="#18181b"/>
+    <polygon points="142,130 156,134 156,217 142,217" fill="#dc2626" opacity="0.85"/>
+    <polygon points="142,217 156,217 210,320 95,320" fill="#dc2626" opacity="0.22"/>
+  </g>
+
+  <!-- Cerca de Madeira do Rancho -->
+  <g stroke="#040507" stroke-width="6" opacity="0.9">
+    <line x1="60" y1="730" x2="740" y2="730"/>
+    <line x1="60" y1="762" x2="740" y2="762"/>
+    <line x1="90" y1="710" x2="90" y2="790"/>
+    <line x1="170" y1="710" x2="170" y2="790"/>
+    <line x1="250" y1="710" x2="250" y2="790"/>
+    <line x1="550" y1="710" x2="550" y2="790"/>
+    <line x1="630" y1="710" x2="630" y2="790"/>
+    <line x1="710" y1="710" x2="710" y2="790"/>
+  </g>
+
+  <!-- Estrada Escura -->
+  <rect x="0" y="760" width="800" height="240" fill="#050608"/>
+
+  <!-- Tipografia de Capa no Topo -->
+  <g text-anchor="middle">
+    <rect x="230" y="58" width="340" height="34" rx="17" fill="#dc2626" fill-opacity="0.2" stroke="#ef4444" stroke-opacity="0.5"/>
+    <text x="400" y="80" fill="#fca5a5" font-family="Inter, sans-serif" font-size="13" font-weight="800" letter-spacing="4">
+      LEITURA COLETIVA • NOVEMBRO
+    </text>
+    <text x="400" y="155" fill="#ffffff" font-family="Cinzel, Georgia, serif" font-size="44" font-weight="900" letter-spacing="3">
+      VOCÊ NÃO DEVERIA
+    </text>
+    <text x="400" y="210" fill="#ef4444" font-family="Cinzel, Georgia, serif" font-size="52" font-weight="900" letter-spacing="5">
+      ESTAR AQUI
+    </text>
+    <text x="400" y="248" fill="#9ca3af" font-family="Inter, sans-serif" font-size="15" font-weight="600" letter-spacing="6">
+      LAUREN THOMAN • SUSPENSE &amp; MISTÉRIO
+    </text>
+  </g>
+</svg>

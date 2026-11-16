@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#0b0c10"/>
+  <circle cx="400" cy="190" r="160" fill="#dc2626" opacity="0.1"/>
+  <!-- Mesa de madeira -->
+  <rect x="0" y="265" width="800" height="95" fill="#1c1917"/>
+  <line x1="0" y1="265" x2="800" y2="265" stroke="#44403c" stroke-width="3"/>
+  <!-- Pires e Xícara Fumegante -->
+  <ellipse cx="400" cy="262" rx="76" ry="14" fill="#e5e7eb"/>
+  <path d="M348 175 L452 175 L440 252 C438 260 362 260 360 252 Z" fill="#dc2626" stroke="#fca5a5" stroke-width="2"/>
+  <path d="M450 190 C482 190 482 235 444 235" fill="none" stroke="#dc2626" stroke-width="10" stroke-linecap="round"/>
+  <!-- Vapor misterioso -->
+  <path d="M380 155 Q368 125 385 100 Q402 75 385 50" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M415 155 Q428 125 410 100 Q395 75 412 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <!-- Frasco pequeno na sombra -->
+  <rect x="245" y="210" width="32" height="52" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+  <rect x="253" y="198" width="16" height="12" fill="#94a3b8"/>
+  <text x="261" y="242" fill="#f87171" font-family="Inter, sans-serif" font-size="14" font-weight="800" text-anchor="middle">✕</text>
+</svg>

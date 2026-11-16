@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#090a0f"/>
+  <circle cx="400" cy="180" r="220" fill="#dc2626" opacity="0.08"/>
+  <!-- Pinheiros na neblina -->
+  <g fill="#111827">
+    <polygon points="120,80 70,290 170,290"/>
+    <polygon points="200,110 155,290 245,290"/>
+    <polygon points="620,90 570,290 670,290"/>
+    <polygon points="690,115 645,290 735,290"/>
+  </g>
+  <!-- Galpão Trancado -->
+  <g transform="translate(270, 95)">
+    <polygon points="130,0 10,75 250,75" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="30" y="75" width="200" height="135" fill="#121318" stroke="#27272a" stroke-width="2"/>
+    <!-- Tábuas de madeira -->
+    <rect x="92" y="102" width="76" height="108" fill="#1f2028" stroke="#09090b" stroke-width="3"/>
+    <line x1="130" y1="102" x2="130" y2="210" stroke="#09090b" stroke-width="3"/>
+    <!-- Corrente e Cadeado -->
+    <line x1="88" y1="152" x2="172" y2="152" stroke="#9ca3af" stroke-width="6" stroke-dasharray="10,5"/>
+    <rect x="120" y="148" width="20" height="24" rx="4" fill="#f59e0b" stroke="#78350f" stroke-width="2"/>
+    <!-- Luz escapando pela fresta -->
+    <rect x="52" y="112" width="22" height="18" fill="#ef4444" opacity="0.75"/>
+  </g>
+  <rect y="300" width="800" height="60" fill="#050608"/>
+</svg>

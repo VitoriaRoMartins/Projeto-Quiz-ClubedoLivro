@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <defs>
+    <radialGradient id="fireGlow" cx="50%" cy="75%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.75"/>
+      <stop offset="45%" stop-color="#dc2626" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="360" fill="#090a0f"/>
+  <rect width="800" height="360" fill="url(#fireGlow)"/>
+  <!-- Estrutura do Posto Isolado -->
+  <rect x="220" y="140" width="360" height="18" fill="#18181b" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="260" y="158" width="16" height="135" fill="#27272a"/>
+  <rect x="524" y="158" width="16" height="135" fill="#27272a"/>
+  <rect x="315" y="195" width="170" height="98" fill="#18181b"/>
+  <!-- Bombas de combustível -->
+  <rect x="235" y="235" width="28" height="58" rx="4" fill="#dc2626"/>
+  <rect x="537" y="235" width="28" height="58" rx="4" fill="#dc2626"/>
+  <!-- Chamas altas na noite -->
+  <path d="M280 293 Q310 190 345 245 Q375 130 410 220 Q445 140 480 235 Q510 185 530 293 Z" fill="#ef4444" opacity="0.9"/>
+  <path d="M315 293 Q345 215 375 255 Q405 165 435 240 Q465 200 495 293 Z" fill="#f59e0b" opacity="0.95"/>
+  <path d="M355 293 Q385 230 405 260 Q425 210 455 293 Z" fill="#fef08a"/>
+  <rect y="293" width="800" height="67" fill="#050608"/>
+</svg>
